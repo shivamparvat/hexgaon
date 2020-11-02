@@ -1,0 +1,4261 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: whitesmoke;
+  overflow: hidden;
+}
+
+.manehex {
+  position: absolute;
+  top: -16px;
+  left: -86px;
+}
+
+.manehex .hexagon {
+  width: 52px;
+  height: 30px;
+  background: #ccc;
+  opacity: 0.4;
+  position: absolute;
+  border-radius: 4px;
+}
+
+.manehex .hexagon::before, .manehex .hexagon::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.manehex .hexagon::before {
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.manehex .hexagon::after {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.manehex div:hover::before, .manehex div:hover::after, .manehex div:hover {
+  opacity: 1;
+  background: whitesmoke;
+  -webkit-transition: cubic-bezier(0.23, 1, 0.32, 1);
+  transition: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(1) {
+  top: 0px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(2) {
+  top: 0px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(3) {
+  top: 0px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(4) {
+  top: 0px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(5) {
+  top: 0px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(6) {
+  top: 0px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(7) {
+  top: 0px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(8) {
+  top: 0px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(9) {
+  top: 0px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(10) {
+  top: 0px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(11) {
+  top: 0px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(12) {
+  top: 0px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(13) {
+  top: 0px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(14) {
+  top: 0px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(15) {
+  top: 0px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(16) {
+  top: 0px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(17) {
+  top: 0px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(18) {
+  top: 0px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(19) {
+  top: 0px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(20) {
+  top: 0px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(21) {
+  top: 0px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(22) {
+  top: 0px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(23) {
+  top: 0px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(24) {
+  top: 0px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(25) {
+  top: 0px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(26) {
+  top: 0px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(27) {
+  top: 0px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(28) {
+  top: 0px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(1) .hex:nth-child(29) {
+  top: 0px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(1) {
+  top: 54px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(2) {
+  top: 54px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(3) {
+  top: 54px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(4) {
+  top: 54px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(5) {
+  top: 54px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(6) {
+  top: 54px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(7) {
+  top: 54px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(8) {
+  top: 54px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(9) {
+  top: 54px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(10) {
+  top: 54px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(11) {
+  top: 54px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(12) {
+  top: 54px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(13) {
+  top: 54px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(14) {
+  top: 54px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(15) {
+  top: 54px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(16) {
+  top: 54px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(17) {
+  top: 54px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(18) {
+  top: 54px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(19) {
+  top: 54px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(20) {
+  top: 54px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(21) {
+  top: 54px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(22) {
+  top: 54px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(23) {
+  top: 54px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(24) {
+  top: 54px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(25) {
+  top: 54px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(26) {
+  top: 54px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(27) {
+  top: 54px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(28) {
+  top: 54px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(2) .hex:nth-child(29) {
+  top: 54px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(1) {
+  top: 108px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(2) {
+  top: 108px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(3) {
+  top: 108px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(4) {
+  top: 108px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(5) {
+  top: 108px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(6) {
+  top: 108px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(7) {
+  top: 108px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(8) {
+  top: 108px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(9) {
+  top: 108px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(10) {
+  top: 108px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(11) {
+  top: 108px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(12) {
+  top: 108px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(13) {
+  top: 108px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(14) {
+  top: 108px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(15) {
+  top: 108px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(16) {
+  top: 108px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(17) {
+  top: 108px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(18) {
+  top: 108px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(19) {
+  top: 108px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(20) {
+  top: 108px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(21) {
+  top: 108px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(22) {
+  top: 108px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(23) {
+  top: 108px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(24) {
+  top: 108px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(25) {
+  top: 108px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(26) {
+  top: 108px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(27) {
+  top: 108px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(28) {
+  top: 108px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(3) .hex:nth-child(29) {
+  top: 108px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(1) {
+  top: 162px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(2) {
+  top: 162px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(3) {
+  top: 162px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(4) {
+  top: 162px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(5) {
+  top: 162px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(6) {
+  top: 162px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(7) {
+  top: 162px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(8) {
+  top: 162px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(9) {
+  top: 162px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(10) {
+  top: 162px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(11) {
+  top: 162px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(12) {
+  top: 162px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(13) {
+  top: 162px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(14) {
+  top: 162px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(15) {
+  top: 162px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(16) {
+  top: 162px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(17) {
+  top: 162px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(18) {
+  top: 162px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(19) {
+  top: 162px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(20) {
+  top: 162px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(21) {
+  top: 162px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(22) {
+  top: 162px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(23) {
+  top: 162px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(24) {
+  top: 162px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(25) {
+  top: 162px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(26) {
+  top: 162px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(27) {
+  top: 162px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(28) {
+  top: 162px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(4) .hex:nth-child(29) {
+  top: 162px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(1) {
+  top: 216px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(2) {
+  top: 216px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(3) {
+  top: 216px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(4) {
+  top: 216px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(5) {
+  top: 216px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(6) {
+  top: 216px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(7) {
+  top: 216px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(8) {
+  top: 216px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(9) {
+  top: 216px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(10) {
+  top: 216px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(11) {
+  top: 216px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(12) {
+  top: 216px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(13) {
+  top: 216px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(14) {
+  top: 216px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(15) {
+  top: 216px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(16) {
+  top: 216px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(17) {
+  top: 216px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(18) {
+  top: 216px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(19) {
+  top: 216px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(20) {
+  top: 216px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(21) {
+  top: 216px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(22) {
+  top: 216px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(23) {
+  top: 216px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(24) {
+  top: 216px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(25) {
+  top: 216px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(26) {
+  top: 216px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(27) {
+  top: 216px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(28) {
+  top: 216px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(5) .hex:nth-child(29) {
+  top: 216px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(1) {
+  top: 270px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(2) {
+  top: 270px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(3) {
+  top: 270px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(4) {
+  top: 270px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(5) {
+  top: 270px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(6) {
+  top: 270px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(7) {
+  top: 270px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(8) {
+  top: 270px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(9) {
+  top: 270px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(10) {
+  top: 270px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(11) {
+  top: 270px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(12) {
+  top: 270px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(13) {
+  top: 270px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(14) {
+  top: 270px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(15) {
+  top: 270px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(16) {
+  top: 270px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(17) {
+  top: 270px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(18) {
+  top: 270px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(19) {
+  top: 270px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(20) {
+  top: 270px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(21) {
+  top: 270px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(22) {
+  top: 270px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(23) {
+  top: 270px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(24) {
+  top: 270px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(25) {
+  top: 270px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(26) {
+  top: 270px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(27) {
+  top: 270px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(28) {
+  top: 270px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(6) .hex:nth-child(29) {
+  top: 270px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(1) {
+  top: 324px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(2) {
+  top: 324px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(3) {
+  top: 324px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(4) {
+  top: 324px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(5) {
+  top: 324px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(6) {
+  top: 324px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(7) {
+  top: 324px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(8) {
+  top: 324px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(9) {
+  top: 324px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(10) {
+  top: 324px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(11) {
+  top: 324px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(12) {
+  top: 324px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(13) {
+  top: 324px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(14) {
+  top: 324px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(15) {
+  top: 324px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(16) {
+  top: 324px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(17) {
+  top: 324px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(18) {
+  top: 324px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(19) {
+  top: 324px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(20) {
+  top: 324px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(21) {
+  top: 324px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(22) {
+  top: 324px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(23) {
+  top: 324px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(24) {
+  top: 324px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(25) {
+  top: 324px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(26) {
+  top: 324px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(27) {
+  top: 324px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(28) {
+  top: 324px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(7) .hex:nth-child(29) {
+  top: 324px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(1) {
+  top: 378px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(2) {
+  top: 378px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(3) {
+  top: 378px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(4) {
+  top: 378px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(5) {
+  top: 378px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(6) {
+  top: 378px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(7) {
+  top: 378px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(8) {
+  top: 378px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(9) {
+  top: 378px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(10) {
+  top: 378px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(11) {
+  top: 378px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(12) {
+  top: 378px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(13) {
+  top: 378px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(14) {
+  top: 378px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(15) {
+  top: 378px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(16) {
+  top: 378px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(17) {
+  top: 378px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(18) {
+  top: 378px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(19) {
+  top: 378px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(20) {
+  top: 378px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(21) {
+  top: 378px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(22) {
+  top: 378px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(23) {
+  top: 378px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(24) {
+  top: 378px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(25) {
+  top: 378px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(26) {
+  top: 378px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(27) {
+  top: 378px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(28) {
+  top: 378px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(8) .hex:nth-child(29) {
+  top: 378px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(1) {
+  top: 432px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(2) {
+  top: 432px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(3) {
+  top: 432px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(4) {
+  top: 432px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(5) {
+  top: 432px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(6) {
+  top: 432px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(7) {
+  top: 432px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(8) {
+  top: 432px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(9) {
+  top: 432px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(10) {
+  top: 432px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(11) {
+  top: 432px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(12) {
+  top: 432px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(13) {
+  top: 432px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(14) {
+  top: 432px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(15) {
+  top: 432px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(16) {
+  top: 432px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(17) {
+  top: 432px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(18) {
+  top: 432px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(19) {
+  top: 432px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(20) {
+  top: 432px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(21) {
+  top: 432px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(22) {
+  top: 432px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(23) {
+  top: 432px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(24) {
+  top: 432px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(25) {
+  top: 432px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(26) {
+  top: 432px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(27) {
+  top: 432px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(28) {
+  top: 432px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(9) .hex:nth-child(29) {
+  top: 432px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(1) {
+  top: 486px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(2) {
+  top: 486px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(3) {
+  top: 486px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(4) {
+  top: 486px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(5) {
+  top: 486px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(6) {
+  top: 486px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(7) {
+  top: 486px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(8) {
+  top: 486px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(9) {
+  top: 486px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(10) {
+  top: 486px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(11) {
+  top: 486px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(12) {
+  top: 486px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(13) {
+  top: 486px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(14) {
+  top: 486px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(15) {
+  top: 486px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(16) {
+  top: 486px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(17) {
+  top: 486px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(18) {
+  top: 486px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(19) {
+  top: 486px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(20) {
+  top: 486px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(21) {
+  top: 486px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(22) {
+  top: 486px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(23) {
+  top: 486px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(24) {
+  top: 486px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(25) {
+  top: 486px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(26) {
+  top: 486px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(27) {
+  top: 486px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(28) {
+  top: 486px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(10) .hex:nth-child(29) {
+  top: 486px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(1) {
+  top: 540px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(2) {
+  top: 540px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(3) {
+  top: 540px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(4) {
+  top: 540px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(5) {
+  top: 540px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(6) {
+  top: 540px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(7) {
+  top: 540px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(8) {
+  top: 540px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(9) {
+  top: 540px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(10) {
+  top: 540px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(11) {
+  top: 540px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(12) {
+  top: 540px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(13) {
+  top: 540px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(14) {
+  top: 540px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(15) {
+  top: 540px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(16) {
+  top: 540px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(17) {
+  top: 540px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(18) {
+  top: 540px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(19) {
+  top: 540px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(20) {
+  top: 540px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(21) {
+  top: 540px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(22) {
+  top: 540px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(23) {
+  top: 540px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(24) {
+  top: 540px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(25) {
+  top: 540px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(26) {
+  top: 540px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(27) {
+  top: 540px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(28) {
+  top: 540px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(11) .hex:nth-child(29) {
+  top: 540px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(1) {
+  top: 594px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(2) {
+  top: 594px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(3) {
+  top: 594px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(4) {
+  top: 594px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(5) {
+  top: 594px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(6) {
+  top: 594px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(7) {
+  top: 594px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(8) {
+  top: 594px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(9) {
+  top: 594px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(10) {
+  top: 594px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(11) {
+  top: 594px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(12) {
+  top: 594px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(13) {
+  top: 594px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(14) {
+  top: 594px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(15) {
+  top: 594px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(16) {
+  top: 594px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(17) {
+  top: 594px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(18) {
+  top: 594px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(19) {
+  top: 594px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(20) {
+  top: 594px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(21) {
+  top: 594px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(22) {
+  top: 594px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(23) {
+  top: 594px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(24) {
+  top: 594px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(25) {
+  top: 594px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(26) {
+  top: 594px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(27) {
+  top: 594px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(28) {
+  top: 594px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(12) .hex:nth-child(29) {
+  top: 594px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(1) {
+  top: 648px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(2) {
+  top: 648px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(3) {
+  top: 648px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(4) {
+  top: 648px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(5) {
+  top: 648px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(6) {
+  top: 648px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(7) {
+  top: 648px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(8) {
+  top: 648px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(9) {
+  top: 648px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(10) {
+  top: 648px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(11) {
+  top: 648px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(12) {
+  top: 648px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(13) {
+  top: 648px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(14) {
+  top: 648px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(15) {
+  top: 648px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(16) {
+  top: 648px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(17) {
+  top: 648px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(18) {
+  top: 648px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(19) {
+  top: 648px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(20) {
+  top: 648px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(21) {
+  top: 648px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(22) {
+  top: 648px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(23) {
+  top: 648px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(24) {
+  top: 648px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(25) {
+  top: 648px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(26) {
+  top: 648px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(27) {
+  top: 648px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(28) {
+  top: 648px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(13) .hex:nth-child(29) {
+  top: 648px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(1) {
+  top: 702px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(2) {
+  top: 702px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(3) {
+  top: 702px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(4) {
+  top: 702px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(5) {
+  top: 702px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(6) {
+  top: 702px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(7) {
+  top: 702px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(8) {
+  top: 702px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(9) {
+  top: 702px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(10) {
+  top: 702px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(11) {
+  top: 702px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(12) {
+  top: 702px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(13) {
+  top: 702px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(14) {
+  top: 702px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(15) {
+  top: 702px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(16) {
+  top: 702px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(17) {
+  top: 702px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(18) {
+  top: 702px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(19) {
+  top: 702px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(20) {
+  top: 702px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(21) {
+  top: 702px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(22) {
+  top: 702px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(23) {
+  top: 702px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(24) {
+  top: 702px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(25) {
+  top: 702px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(26) {
+  top: 702px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(27) {
+  top: 702px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(28) {
+  top: 702px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(14) .hex:nth-child(29) {
+  top: 702px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(1) {
+  top: 756px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(2) {
+  top: 756px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(3) {
+  top: 756px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(4) {
+  top: 756px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(5) {
+  top: 756px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(6) {
+  top: 756px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(7) {
+  top: 756px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(8) {
+  top: 756px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(9) {
+  top: 756px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(10) {
+  top: 756px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(11) {
+  top: 756px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(12) {
+  top: 756px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(13) {
+  top: 756px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(14) {
+  top: 756px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(15) {
+  top: 756px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(16) {
+  top: 756px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(17) {
+  top: 756px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(18) {
+  top: 756px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(19) {
+  top: 756px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(20) {
+  top: 756px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(21) {
+  top: 756px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(22) {
+  top: 756px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(23) {
+  top: 756px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(24) {
+  top: 756px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(25) {
+  top: 756px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(26) {
+  top: 756px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(27) {
+  top: 756px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(28) {
+  top: 756px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(15) .hex:nth-child(29) {
+  top: 756px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(1) {
+  top: 810px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(2) {
+  top: 810px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(3) {
+  top: 810px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(4) {
+  top: 810px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(5) {
+  top: 810px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(6) {
+  top: 810px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(7) {
+  top: 810px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(8) {
+  top: 810px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(9) {
+  top: 810px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(10) {
+  top: 810px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(11) {
+  top: 810px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(12) {
+  top: 810px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(13) {
+  top: 810px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(14) {
+  top: 810px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(15) {
+  top: 810px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(16) {
+  top: 810px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(17) {
+  top: 810px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(18) {
+  top: 810px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(19) {
+  top: 810px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(20) {
+  top: 810px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(21) {
+  top: 810px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(22) {
+  top: 810px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(23) {
+  top: 810px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(24) {
+  top: 810px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(25) {
+  top: 810px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(26) {
+  top: 810px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(27) {
+  top: 810px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(28) {
+  top: 810px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(16) .hex:nth-child(29) {
+  top: 810px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(1) {
+  top: 864px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(2) {
+  top: 864px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(3) {
+  top: 864px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(4) {
+  top: 864px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(5) {
+  top: 864px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(6) {
+  top: 864px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(7) {
+  top: 864px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(8) {
+  top: 864px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(9) {
+  top: 864px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(10) {
+  top: 864px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(11) {
+  top: 864px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(12) {
+  top: 864px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(13) {
+  top: 864px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(14) {
+  top: 864px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(15) {
+  top: 864px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(16) {
+  top: 864px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(17) {
+  top: 864px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(18) {
+  top: 864px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(19) {
+  top: 864px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(20) {
+  top: 864px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(21) {
+  top: 864px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(22) {
+  top: 864px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(23) {
+  top: 864px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(24) {
+  top: 864px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(25) {
+  top: 864px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(26) {
+  top: 864px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(27) {
+  top: 864px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(28) {
+  top: 864px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(17) .hex:nth-child(29) {
+  top: 864px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(1) {
+  top: 918px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(2) {
+  top: 918px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(3) {
+  top: 918px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(4) {
+  top: 918px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(5) {
+  top: 918px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(6) {
+  top: 918px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(7) {
+  top: 918px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(8) {
+  top: 918px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(9) {
+  top: 918px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(10) {
+  top: 918px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(11) {
+  top: 918px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(12) {
+  top: 918px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(13) {
+  top: 918px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(14) {
+  top: 918px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(15) {
+  top: 918px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(16) {
+  top: 918px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(17) {
+  top: 918px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(18) {
+  top: 918px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(19) {
+  top: 918px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(20) {
+  top: 918px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(21) {
+  top: 918px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(22) {
+  top: 918px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(23) {
+  top: 918px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(24) {
+  top: 918px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(25) {
+  top: 918px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(26) {
+  top: 918px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(27) {
+  top: 918px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(28) {
+  top: 918px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(18) .hex:nth-child(29) {
+  top: 918px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(1) {
+  top: 972px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(2) {
+  top: 972px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(3) {
+  top: 972px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(4) {
+  top: 972px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(5) {
+  top: 972px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(6) {
+  top: 972px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(7) {
+  top: 972px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(8) {
+  top: 972px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(9) {
+  top: 972px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(10) {
+  top: 972px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(11) {
+  top: 972px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(12) {
+  top: 972px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(13) {
+  top: 972px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(14) {
+  top: 972px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(15) {
+  top: 972px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(16) {
+  top: 972px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(17) {
+  top: 972px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(18) {
+  top: 972px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(19) {
+  top: 972px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(20) {
+  top: 972px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(21) {
+  top: 972px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(22) {
+  top: 972px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(23) {
+  top: 972px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(24) {
+  top: 972px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(25) {
+  top: 972px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(26) {
+  top: 972px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(27) {
+  top: 972px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(28) {
+  top: 972px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(19) .hex:nth-child(29) {
+  top: 972px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(1) {
+  top: 1026px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(2) {
+  top: 1026px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(3) {
+  top: 1026px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(4) {
+  top: 1026px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(5) {
+  top: 1026px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(6) {
+  top: 1026px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(7) {
+  top: 1026px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(8) {
+  top: 1026px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(9) {
+  top: 1026px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(10) {
+  top: 1026px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(11) {
+  top: 1026px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(12) {
+  top: 1026px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(13) {
+  top: 1026px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(14) {
+  top: 1026px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(15) {
+  top: 1026px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(16) {
+  top: 1026px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(17) {
+  top: 1026px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(18) {
+  top: 1026px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(19) {
+  top: 1026px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(20) {
+  top: 1026px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(21) {
+  top: 1026px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(22) {
+  top: 1026px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(23) {
+  top: 1026px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(24) {
+  top: 1026px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(25) {
+  top: 1026px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(26) {
+  top: 1026px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(27) {
+  top: 1026px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(28) {
+  top: 1026px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(20) .hex:nth-child(29) {
+  top: 1026px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(1) {
+  top: 1080px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(2) {
+  top: 1080px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(3) {
+  top: 1080px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(4) {
+  top: 1080px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(5) {
+  top: 1080px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(6) {
+  top: 1080px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(7) {
+  top: 1080px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(8) {
+  top: 1080px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(9) {
+  top: 1080px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(10) {
+  top: 1080px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(11) {
+  top: 1080px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(12) {
+  top: 1080px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(13) {
+  top: 1080px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(14) {
+  top: 1080px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(15) {
+  top: 1080px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(16) {
+  top: 1080px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(17) {
+  top: 1080px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(18) {
+  top: 1080px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(19) {
+  top: 1080px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(20) {
+  top: 1080px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(21) {
+  top: 1080px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(22) {
+  top: 1080px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(23) {
+  top: 1080px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(24) {
+  top: 1080px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(25) {
+  top: 1080px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(26) {
+  top: 1080px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(27) {
+  top: 1080px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(28) {
+  top: 1080px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(21) .hex:nth-child(29) {
+  top: 1080px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(1) {
+  top: 1134px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(2) {
+  top: 1134px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(3) {
+  top: 1134px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(4) {
+  top: 1134px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(5) {
+  top: 1134px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(6) {
+  top: 1134px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(7) {
+  top: 1134px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(8) {
+  top: 1134px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(9) {
+  top: 1134px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(10) {
+  top: 1134px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(11) {
+  top: 1134px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(12) {
+  top: 1134px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(13) {
+  top: 1134px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(14) {
+  top: 1134px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(15) {
+  top: 1134px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(16) {
+  top: 1134px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(17) {
+  top: 1134px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(18) {
+  top: 1134px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(19) {
+  top: 1134px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(20) {
+  top: 1134px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(21) {
+  top: 1134px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(22) {
+  top: 1134px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(23) {
+  top: 1134px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(24) {
+  top: 1134px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(25) {
+  top: 1134px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(26) {
+  top: 1134px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(27) {
+  top: 1134px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(28) {
+  top: 1134px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(22) .hex:nth-child(29) {
+  top: 1134px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(1) {
+  top: 1188px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(2) {
+  top: 1188px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(3) {
+  top: 1188px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(4) {
+  top: 1188px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(5) {
+  top: 1188px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(6) {
+  top: 1188px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(7) {
+  top: 1188px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(8) {
+  top: 1188px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(9) {
+  top: 1188px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(10) {
+  top: 1188px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(11) {
+  top: 1188px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(12) {
+  top: 1188px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(13) {
+  top: 1188px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(14) {
+  top: 1188px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(15) {
+  top: 1188px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(16) {
+  top: 1188px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(17) {
+  top: 1188px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(18) {
+  top: 1188px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(19) {
+  top: 1188px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(20) {
+  top: 1188px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(21) {
+  top: 1188px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(22) {
+  top: 1188px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(23) {
+  top: 1188px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(24) {
+  top: 1188px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(25) {
+  top: 1188px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(26) {
+  top: 1188px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(27) {
+  top: 1188px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(28) {
+  top: 1188px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(23) .hex:nth-child(29) {
+  top: 1188px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(1) {
+  top: 1242px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(2) {
+  top: 1242px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(3) {
+  top: 1242px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(4) {
+  top: 1242px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(5) {
+  top: 1242px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(6) {
+  top: 1242px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(7) {
+  top: 1242px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(8) {
+  top: 1242px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(9) {
+  top: 1242px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(10) {
+  top: 1242px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(11) {
+  top: 1242px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(12) {
+  top: 1242px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(13) {
+  top: 1242px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(14) {
+  top: 1242px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(15) {
+  top: 1242px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(16) {
+  top: 1242px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(17) {
+  top: 1242px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(18) {
+  top: 1242px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(19) {
+  top: 1242px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(20) {
+  top: 1242px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(21) {
+  top: 1242px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(22) {
+  top: 1242px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(23) {
+  top: 1242px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(24) {
+  top: 1242px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(25) {
+  top: 1242px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(26) {
+  top: 1242px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(27) {
+  top: 1242px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(28) {
+  top: 1242px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(24) .hex:nth-child(29) {
+  top: 1242px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(1) {
+  top: 1296px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(2) {
+  top: 1296px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(3) {
+  top: 1296px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(4) {
+  top: 1296px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(5) {
+  top: 1296px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(6) {
+  top: 1296px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(7) {
+  top: 1296px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(8) {
+  top: 1296px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(9) {
+  top: 1296px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(10) {
+  top: 1296px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(11) {
+  top: 1296px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(12) {
+  top: 1296px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(13) {
+  top: 1296px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(14) {
+  top: 1296px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(15) {
+  top: 1296px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(16) {
+  top: 1296px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(17) {
+  top: 1296px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(18) {
+  top: 1296px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(19) {
+  top: 1296px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(20) {
+  top: 1296px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(21) {
+  top: 1296px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(22) {
+  top: 1296px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(23) {
+  top: 1296px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(24) {
+  top: 1296px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(25) {
+  top: 1296px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(26) {
+  top: 1296px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(27) {
+  top: 1296px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(28) {
+  top: 1296px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(25) .hex:nth-child(29) {
+  top: 1296px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(1) {
+  top: 1350px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(2) {
+  top: 1350px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(3) {
+  top: 1350px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(4) {
+  top: 1350px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(5) {
+  top: 1350px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(6) {
+  top: 1350px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(7) {
+  top: 1350px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(8) {
+  top: 1350px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(9) {
+  top: 1350px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(10) {
+  top: 1350px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(11) {
+  top: 1350px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(12) {
+  top: 1350px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(13) {
+  top: 1350px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(14) {
+  top: 1350px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(15) {
+  top: 1350px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(16) {
+  top: 1350px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(17) {
+  top: 1350px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(18) {
+  top: 1350px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(19) {
+  top: 1350px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(20) {
+  top: 1350px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(21) {
+  top: 1350px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(22) {
+  top: 1350px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(23) {
+  top: 1350px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(24) {
+  top: 1350px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(25) {
+  top: 1350px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(26) {
+  top: 1350px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(27) {
+  top: 1350px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(28) {
+  top: 1350px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(26) .hex:nth-child(29) {
+  top: 1350px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(1) {
+  top: 1404px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(2) {
+  top: 1404px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(3) {
+  top: 1404px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(4) {
+  top: 1404px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(5) {
+  top: 1404px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(6) {
+  top: 1404px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(7) {
+  top: 1404px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(8) {
+  top: 1404px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(9) {
+  top: 1404px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(10) {
+  top: 1404px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(11) {
+  top: 1404px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(12) {
+  top: 1404px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(13) {
+  top: 1404px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(14) {
+  top: 1404px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(15) {
+  top: 1404px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(16) {
+  top: 1404px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(17) {
+  top: 1404px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(18) {
+  top: 1404px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(19) {
+  top: 1404px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(20) {
+  top: 1404px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(21) {
+  top: 1404px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(22) {
+  top: 1404px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(23) {
+  top: 1404px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(24) {
+  top: 1404px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(25) {
+  top: 1404px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(26) {
+  top: 1404px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(27) {
+  top: 1404px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(28) {
+  top: 1404px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(27) .hex:nth-child(29) {
+  top: 1404px;
+  left: 1741px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(1) {
+  top: 1458px;
+  left: 59px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(2) {
+  top: 1458px;
+  left: 118px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(3) {
+  top: 1458px;
+  left: 177px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(4) {
+  top: 1458px;
+  left: 236px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(5) {
+  top: 1458px;
+  left: 295px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(6) {
+  top: 1458px;
+  left: 354px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(7) {
+  top: 1458px;
+  left: 413px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(8) {
+  top: 1458px;
+  left: 472px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(9) {
+  top: 1458px;
+  left: 531px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(10) {
+  top: 1458px;
+  left: 590px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(11) {
+  top: 1458px;
+  left: 649px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(12) {
+  top: 1458px;
+  left: 708px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(13) {
+  top: 1458px;
+  left: 767px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(14) {
+  top: 1458px;
+  left: 826px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(15) {
+  top: 1458px;
+  left: 885px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(16) {
+  top: 1458px;
+  left: 944px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(17) {
+  top: 1458px;
+  left: 1003px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(18) {
+  top: 1458px;
+  left: 1062px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(19) {
+  top: 1458px;
+  left: 1121px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(20) {
+  top: 1458px;
+  left: 1180px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(21) {
+  top: 1458px;
+  left: 1239px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(22) {
+  top: 1458px;
+  left: 1298px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(23) {
+  top: 1458px;
+  left: 1357px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(24) {
+  top: 1458px;
+  left: 1416px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(25) {
+  top: 1458px;
+  left: 1475px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(26) {
+  top: 1458px;
+  left: 1534px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(27) {
+  top: 1458px;
+  left: 1593px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(28) {
+  top: 1458px;
+  left: 1652px;
+}
+
+.manehex .linesecter:nth-child(28) .hex:nth-child(29) {
+  top: 1458px;
+  left: 1711px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(1) {
+  top: 1512px;
+  left: 89px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(2) {
+  top: 1512px;
+  left: 148px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(3) {
+  top: 1512px;
+  left: 207px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(4) {
+  top: 1512px;
+  left: 266px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(5) {
+  top: 1512px;
+  left: 325px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(6) {
+  top: 1512px;
+  left: 384px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(7) {
+  top: 1512px;
+  left: 443px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(8) {
+  top: 1512px;
+  left: 502px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(9) {
+  top: 1512px;
+  left: 561px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(10) {
+  top: 1512px;
+  left: 620px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(11) {
+  top: 1512px;
+  left: 679px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(12) {
+  top: 1512px;
+  left: 738px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(13) {
+  top: 1512px;
+  left: 797px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(14) {
+  top: 1512px;
+  left: 856px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(15) {
+  top: 1512px;
+  left: 915px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(16) {
+  top: 1512px;
+  left: 974px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(17) {
+  top: 1512px;
+  left: 1033px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(18) {
+  top: 1512px;
+  left: 1092px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(19) {
+  top: 1512px;
+  left: 1151px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(20) {
+  top: 1512px;
+  left: 1210px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(21) {
+  top: 1512px;
+  left: 1269px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(22) {
+  top: 1512px;
+  left: 1328px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(23) {
+  top: 1512px;
+  left: 1387px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(24) {
+  top: 1512px;
+  left: 1446px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(25) {
+  top: 1512px;
+  left: 1505px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(26) {
+  top: 1512px;
+  left: 1564px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(27) {
+  top: 1512px;
+  left: 1623px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(28) {
+  top: 1512px;
+  left: 1682px;
+}
+
+.manehex .linesecter:nth-child(29) .hex:nth-child(29) {
+  top: 1512px;
+  left: 1741px;
+}
+/*# sourceMappingURL=style.css.map */
